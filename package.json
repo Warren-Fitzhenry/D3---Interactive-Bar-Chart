@@ -4,7 +4,10 @@
     "start": "node server.js"
   },
   "devDependencies": {
-    "rollup": "latest",
-    "@rollup/plugin-buble": "latest"
+    "@rollup/plugin-buble": "latest",
+    "rollup": "latest"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
